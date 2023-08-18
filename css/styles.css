@@ -748,6 +748,11 @@ input[type="checkbox"] {
   border: 1px solid var(--link-active);
 }
 
+.tc-accept-wrapper a {
+  text-decoration: underline;
+  transition: color var(--standard-animation);
+}
+
 .subscribe-wrapper {
   margin-left: auto;
 }
