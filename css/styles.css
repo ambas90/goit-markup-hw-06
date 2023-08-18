@@ -640,7 +640,7 @@ a {
   transition: border-color var(--standard-animation);
 }
 
-.modal-inputs-wrapper ::placeholder {
+.input-wrapper ::placeholder {
   color: var(--navyblue-modal);
 }
 
@@ -766,7 +766,7 @@ input[type="checkbox"] {
 }
 
 .subscribe-email::placeholder {
-  color: var(--white, #fff);
+  color: var(--white);
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.48px;
