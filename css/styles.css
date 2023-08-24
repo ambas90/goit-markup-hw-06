@@ -686,10 +686,12 @@ a {
 }
 
 input[type="checkbox"] {
-  appearance: none;
+  opacity: 0;
+  position: relative;
 }
 
 .checkbox-icon {
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -701,7 +703,7 @@ input[type="checkbox"] {
   margin-right: 8px;
   transition: background-color var(--standard-animation);
 }
-.checkbox:checked ~ .checkbox-icon {
+.checkbox:checked + .checkbox-icon {
   fill: var(--white);
   background-color: var(--link-active);
 }
